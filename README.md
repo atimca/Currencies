@@ -1,6 +1,6 @@
 # Currencies
 
-There are two examples of my code. One was made as easy as possible. And another one with all fancy architecture and testing. This is the second one, another you can get by [the link](https://github.com/Atimca/PhotoGallerys)
+There are two examples of my code. One was made as easy as possible. And another one with all fancy architecture and testing. This is the second one, another example you can get by [the link](https://github.com/Atimca/PhotoGallerys)
 
 **Task:**
 
