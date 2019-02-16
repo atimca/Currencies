@@ -1,0 +1,7 @@
+//
+// Copyright © 2018 Smirnov Maxim. All rights reserved.
+//
+
+"error_message.title" = "Упс";
+"error_message.text" = "Что-то пошло не так!";
+"error_message.ok" = "ОК";
