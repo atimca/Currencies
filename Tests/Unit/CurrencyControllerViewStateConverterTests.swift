@@ -116,7 +116,7 @@ class ControllerViewStateConverterTests: XCTestCase {
                                           previousState: priviousState)
 
         // Then
-        XCTAssertEqual(converted.table.map { $0.info }, [Currency.bgn, .eur, .aud, .cad])
+        XCTAssertEqual(converted.table.map { $0.info }, [Currency.bgn, Currency.eur, Currency.aud, Currency.cad])
     }
 
     func testThatIfAppStateContainsErrorAndNonLastMapThatViewStateWillContainErrorMessage() {

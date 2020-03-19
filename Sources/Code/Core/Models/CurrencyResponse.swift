@@ -7,5 +7,5 @@ import Foundation
 struct CurrencyResponse: Codable {
     let base: String
     let date: String
-    let rates: [String: Decimal]
+    let rates: [String: Double]
 }

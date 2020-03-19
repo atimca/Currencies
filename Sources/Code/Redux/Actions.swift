@@ -14,5 +14,5 @@ struct NewBaseCurrencySelected: Action, Equatable {
 }
 
 struct MultiplierChanged: Action {
-    let newValue: Decimal
+    let newValue: Double
 }

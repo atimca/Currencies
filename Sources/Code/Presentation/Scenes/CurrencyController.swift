@@ -135,7 +135,7 @@ extension CurrencyController: StoreSubscriber {
 extension CurrencyController: CurrencyCellDelegate {
     func textDidChanged(on text: String?, for cell: AnyHashable) {
         guard let text = text else { return }
-        appStore.dispatch(MultiplierChanged(newValue: Decimal(string: text) ?? 0))
+        appStore.dispatch(MultiplierChanged(newValue: Double(text) ?? 0))
     }
 }
 

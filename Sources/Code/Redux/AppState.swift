@@ -6,7 +6,7 @@ import ReSwift
 
 struct AppState: StateType, Equatable {
     var currencyDownloadState: CurrencyDownloadState
-    var multiplier: Decimal
+    var multiplier: Double
     var lastCurrencyMap: CurrencyMap?
     static let initial = AppState(currencyDownloadState: .initial,
                                   multiplier: 100,

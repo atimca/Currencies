@@ -51,7 +51,7 @@ struct CurrencyControllerViewStateConverter {
         return ordering[lhs.kind] ?? 0 < ordering[rhs.kind] ?? 0
     }
 
-    private func convert(currency: Currency, rate: Decimal) -> CurrencyCell.ViewState {
+    private func convert(currency: Currency, rate: Double) -> CurrencyCell.ViewState {
         return .init(currency: currency.rawValue.uppercased(),
                      field: String(format: "%.2f", Double("\(rate)")!),
                      info: currency)

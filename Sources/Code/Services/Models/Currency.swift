@@ -12,7 +12,7 @@ struct CurrencyMap: Equatable {
 extension CurrencyMap {
     struct Rate: Hashable, Equatable {
         let kind: Currency
-        let value: Decimal
+        let value: Double
     }
 }
 
